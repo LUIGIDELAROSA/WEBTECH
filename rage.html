@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOURAGE</title>
+    <link rel="stylesheet" href="rage.css">
+</head>
+<body>
+    <div class="top">
+        <img src="logo.png" class="nike">
+        <img src="magni.jpg" class="puma">
+        <input type="text" placeholder="Search Here ...">
+    </div>
+    <div class="flexbox">
+        <span>Tap the "+" icon to add widgets</span>
+        <span>To-Do:</span>
+        <span>Reminder:</span>
+    </div>
+    <div class="fbox">
+        <span>Recently Opened Files:</span>
+        <span>Homework:</span>
+    </div>
+    <div class="red">
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/*" id="input-file" hidden>
+            <div id="img-view">
+                <img src="add.png">
+                <p>Tap the "+" icon to place your class schedule</p>
+            </div>
+        </label>
+    </div>
+    <div class="box">
+        <span></span>
+        <img src="tab.png" class="fila">
+    </div>
+    <div class="container">
+        <input type="text" id="input-box" placeholder="Write Here">
+        <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="list-container">
+        <!--<li class="">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+    <ul id="list-containers">
+        <!--<h4 class="">Task 4</h4>
+        <h4>Task 5</h4>
+        <h4>Task 6</h4> -->
+    </ul>
+    <div class="containers">
+        <input type="text" id="input-boxs" placeholder="Write Here">
+        <button onclick="addTasks()">Add</button>
+    </div>
+<script src="rage.js"></script>
+</body>
+</html>

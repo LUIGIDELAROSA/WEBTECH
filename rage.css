@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(pbg.png);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nike{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    background-color: rgb(63,65,65);
+    padding-top: 0px;
+    padding-right: 86%;  
+     
+}
+.puma{
+    width: 25px;
+    height: 28px;
+    object-fit: cover;
+    position: relative; top: -57px; left: 34.4%;
+    border: none;
+    margin: 0;
+    padding: 0%;
+}
+.top input{
+    width: 30%;
+    height: 25px;
+    position: absolute; top: 60px; left: 40%;
+    margin-left: -50px;
+    
+}
+.flexbox{
+    display: flex;
+    position: relative; top: -40px;
+}
+.flexbox span{
+    border-radius: 15px;
+    height: 220px;
+    width: 170px;
+    border: none;
+    background-color: lightgray;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flexbox span:first-child{
+    margin-right: auto;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+.fbox{
+    display: flex;
+    position: relative; top: -50px;
+}
+.fbox span{
+    border-radius: 15px;
+    height: 220px;
+    width: 350px;
+    border: none;
+    background-color: lightgray;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box{
+    display: flex;
+    position: relative; top: -340px;
+}
+.box span{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50px;
+    width: 720px;
+    border: none;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fila{
+    width: 80px;
+    height: 60px;
+    position: relative; top: -4px; left: -53%;
+    object-fit: cover;
+}
+.red{
+    width: 605px;
+    min-height: 215px;
+    background: lightgray;
+    display: flex;
+    position: relative; left: 55%; top: -280px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#drop-area{
+    height: 225px;
+    width: 605px;
+    padding: 30px;
+    background: lightgrey;
+    text-align: center;
+    border-radius: 15px;
+    position: relative; top: -1px;
+    margin-bottom: 10px;
+}
+#img-view{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px dashed white;
+    background-position: center;
+    background-size: cover;
+}
+#img-view img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative; top: 100px;
+    cursor: pointer;
+}
+#img-view p{
+    text-align: center;
+    font-style: italic;
+}
+.container{
+    width: 0px;
+    height: 20px;
+    display: flex;
+    border-radius: 15px; 
+    margin-bottom: 25px;
+    position: relative; bottom: 133%; left: 75%;
+}
+.container input{
+   
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-weight: 14px;
+    width: 100px;   
+}
+ul li{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative; left: 73%; top: -875px;
+}
+ul li::before{
+    content: '';
+    position: absolute; top: 10px; left: 1%;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background-image: url(unchecked.png);
+    background-size: cover;
+}
+ul li.checked{
+    color: black;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(checked.png);
+}
+ul li span{
+    position: absolute;
+    right: 88%;
+    top: 1px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+ul li span:hover{
+    background-color: gray;
+    border-radius: 15px;
+}
+.containers{
+    width: 0px;
+    height: 20px;
+    display: flex;
+    border-radius: 15px; 
+    margin-bottom: 25px;
+    position: absolute; bottom: 69%; left: 89%;
+}
+.containers input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-weight: 14px;
+    width: 100px;   
+}
+ul h4{
+    list-style: none;
+    font-size: 15px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative; left: 87%; top: -875px;
+}
+ul h4::before{
+    content: '';
+    position: absolute; top: 10px; left: 1%;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background-image: url(unchecked.png);
+    background-size: cover;
+}
+ul h4.checked{
+    color: black;
+    text-decoration: line-through;
+}
+ul h4.checked::before{
+    background-image: url(checked.png);
+}
+ul h4 p{
+    position: absolute;
+    right: 88%;
+    top: 1px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+ul h4 p:hover{
+    background-color: gray;
+    border-radius: 15px;
+}
